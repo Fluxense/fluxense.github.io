@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://fluxense.com"
 languageCode = "en-us"
 title = "Fluxense"
 theme = "osprey-delight"
@@ -49,6 +49,9 @@ pygmentsUseClasses = true
   #   For more specific usage, you can override the JSON-LD by supplying your own 'person.json' under 'assets/'
   structuredData = true
 
+[Params.Contact]
+# select = ["generic", "coop", "business", "project"]
+
 [[menu.main]]
   name = "About"
   url  = "/#about"
@@ -59,6 +62,6 @@ pygmentsUseClasses = true
   weight = 2
 [[menu.main]]
   name = "Blog"
-  url  = "/#about"
+  url  = "/#blog"
   weight = 3
 
