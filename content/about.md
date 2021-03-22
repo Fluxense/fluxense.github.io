@@ -8,8 +8,8 @@ draft: false
 
 What we can offer:
 
-- Adapting open source autopilot code and hardware to meet your goals
-- Bespoke unmanned systems hardware/software/ground stations
-- Fixed & rotary wing airframe design or optimisation
-- Design and support of flight test programs
-- Ardupilot/PX4/DroneCode custom development and support
+* Adapting open source autopilot code and hardware to meet your goals
+* Bespoke unmanned systems hardware/software/ground stations
+* Fixed & rotary wing airframe design or optimisation
+* Design and support of flight test programs
+* Ardupilot/PX4/DroneCode custom development and support
