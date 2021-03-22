@@ -1,0 +1,63 @@
+baseURL = "https://fluxense.com"
+languageCode = "en-us"
+title = "Fluxense"
+theme = "osprey-delight"
+tags = ["personal", "homepage"]
+disableKinds = ["taxonomy", "taxonomyTerm"] # This theme does not currently use "tag" and "category" taxonomies
+enableEmoji = true
+pygmentsUseClasses = true
+
+[Params]
+  author = "Fluxense Ltd"
+  email = ""
+  description = "osprey-delight example site"
+  tagline = "Services for the autonomous world."
+  logoBig = "/images/logo.png"
+  # [str] This is the logo that will be shown in the left corner of the nav bar.
+  #   Usually, you would like to use something bigger than a favicon - but not too big either.
+  #   Make sure that the image does not overlay the nav links. Don't be afraid of experimenting! 
+  logoSmall = "/images/logo.png"
+  favicon = "/favicon.png"
+  opengraphImage = "/favicon.png"
+  # [bool] The following will enforce redirection to the baseURL for all sub-directories/-pages.
+  #   Example: If you create about.md, Hugo will also create a '/about/index.html'.
+  #   This file will contain only a redirect directive if this switch is enabled.
+  #   Make sure that you do not enable this switch if you also set useBlog to true. 
+  # enforceSinglePage = false
+  # [bool] Will generate copyright notice in footer for your site.
+  copyright = true
+  # [bool] Your credit is much appreciated. It will be displayed in a small way in your footer.
+  #   Anyways, of course you're free to uncomment the following line to disable the credit.
+  # credit = false
+
+[Params.Social]
+  # [str] Link to your GitHub.
+  github = "https://github.com/fluxense"
+
+[Params.Feat]
+  # [bool] Termynal (https://github.com/ines/termynal) is a small JS library for showing a terminal "animation" from within your gallery item.
+  #   The library has been stripped-down to a minimum to only have the necessary functionality.
+  useTermynal = true
+  # [bool] Enable the optional blog module
+  useBlog = true
+  # [str] Use Basin contact form
+  ajaxBasin = "https://usebasin.com/f/1ed3733a7692"
+  # [bool] Enable usage of your own 'assets/scss/_custom.css'.
+  customCSS = true
+  # [bool] Use structured data for your own https://schema.org/Person (SEO-friendly).
+  #   The theme attempts to "guess" your information by using the information you give it in the configuration.
+  #   For more specific usage, you can override the JSON-LD by supplying your own 'person.json' under 'assets/'
+  structuredData = true
+
+[[menu.main]]
+  name = "About"
+  url  = "/#about"
+  weight = 1
+[[menu.main]]
+  name = "Contact"
+  url  = "/#contact"
+  weight = 2
+[[menu.main]]
+  name = "Blog"
+  url  = "/#blog"
+  weight = 3
